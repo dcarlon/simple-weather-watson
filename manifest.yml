@@ -1,0 +1,5 @@
+---
+applications:
+ - name: weather-watson-app
+   random-route: false
+   memory: 128M
