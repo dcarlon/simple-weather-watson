@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bmorelli25/simple-nodejs-weather-app.git"
+    "url": "https://github.com/mandostroke/simple-weather-watson"
   },
-  "author": "brandon morelli",
-  "license": "ISC",
+  "author": "Armando Sanchez",
+  "license": "IBM",
   "bugs": {
-    "url": "https://github.com/bmorelli25/simple-nodejs-weather-app/issues"
+    "url": "https://github.com/mandostroke/simple-weather-watson/issues"
   },
-  "homepage": "https://github.com/bmorelli25/simple-nodejs-weather-app#readme",
+  "homepage": "https://github.com/mandostroke/simple-weather-watson#readme",
   "dependencies": {
     "body-parser": "^1.17.2",
     "ejs": "^2.5.8",
