@@ -1,27 +1,18 @@
 {
-  "name": "weather-watson-app",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/mandostroke/simple-weather-watson"
-  },
-  "author": "Armando Sanchez",
-  "license": "IBM",
-  "bugs": {
-    "url": "https://github.com/mandostroke/simple-weather-watson/issues"
-  },
-  "homepage": "https://github.com/mandostroke/simple-weather-watson#readme",
-  "dependencies": {
-    "body-parser": "^1.17.2",
-    "ejs": "^2.5.8",
-    "express": "^4.15.3",
-    "request": "^2.81.0",
-    "watson-developer-cloud": "^3.2.1"
-  }
+	"name": "NodejsStarterApp",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "node app.js"
+	},
+	"dependencies": {
+		"cfenv": "1.0.x",
+		"ejs": "^2.5.8",
+		"express": "4.15.x",
+		"watson-developer-cloud": "^3.3.0"
+	},
+	"repository": {},
+	"engines": {
+		"node": "6.x"
+	}
 }

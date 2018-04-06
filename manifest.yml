@@ -1,5 +1,12 @@
----
 applications:
- - name: weather-watson-app
-   random-route: false
-   memory: 128M
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: weather-watson-app
+  host: weather-watson-app
+  disk_quota: 1024M
+  services:
+  - Text to Speech-ip
+  env:
+    weather_key: 199c0a6f1b66f772acf7ed686b8c602a
