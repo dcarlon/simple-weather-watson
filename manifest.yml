@@ -3,10 +3,10 @@ applications:
   memory: 128M
   instances: 1
   domain: mybluemix.net
-  name: weather-watson-app
-  host: weather-watson-app
+  name: weather-dcarlon
+  host: weather-dcarlon
   disk_quota: 1024M
   services:
-  - Text to Speech-ip
+  - Text to Speech-xj
   env:
     weather_key: 199c0a6f1b66f772acf7ed686b8c602a
